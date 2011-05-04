@@ -51,12 +51,6 @@ id: articles
 
 Отзывы пользователей Синатры. Английский.
 
-
-### [20+ Rubyists are using Sinatra – Do you?](http://rubylearning.com/blog/2009/06/29/20-rubyists-using-sinatra-do-you/)
-
-Отзывы пользователей Синатры. Английский.
-
-
 ### [Clone TinyURL in 40 lines of Ruby code](http://blog.saush.com/2009/04/13/clone-tinyurl-in-40-lines-of-ruby-code/)
 
 Очередной клон TinyURL, код приложения размещён [здесь](http://github.com/sausheong/snip/), встроенный шаблон отображения.
