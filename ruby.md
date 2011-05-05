@@ -15,17 +15,18 @@ id: ruby
 
 Помимо стандартных типов данных, которые есть во многих языках программирования:
 
-  * строка
-  * целочисленное
-  * с плавающей точко
-  * массив
-  * хэщ-масси
-  * и т.п.
+
+ * строка
+ * целочисленное
+ * с плавающей точко
+ * массив
+ * хэщ-масси
+ * и т.п.
 
 В Ruby есть интересны тип данных, который называется "символ", и обозначается двоеточием перед строкой,
 например:
 
-    `:this_is_symbol`
+    :this_is_symbol
 
 Строку можно перевести в Символ:
 
@@ -34,8 +35,8 @@ id: ruby
 TODO - закончить
 
 
-  * [на русском на основном сайте Ruby](http://preview.ruby-lang.org/ru/documentation/)
-  * [Учебник "Учисть программировать" (перевод на русский)](http://www.shokhirev.com/mikhail/ruby/ltp/title.html)
-  * [Быстрый старт Ruby за 20 минут](http://preview.ruby-lang.org/ru/documentation/quickstart/)
-  * [Викибукс по Ruby](http://ru.wikibooks.org/wiki/Ruby)
-  * [Try Ruby! - консоль Ruby в браузере, без установки](http://tryruby.org/)
+ * [на русском на основном сайте Ruby](http://preview.ruby-lang.org/ru/documentation/)
+ * [Учебник "Учисть программировать" (перевод на русский)](http://www.shokhirev.com/mikhail/ruby/ltp/title.html)
+ * [Быстрый старт Ruby за 20 минут](http://preview.ruby-lang.org/ru/documentation/quickstart/)
+ * [Викибукс по Ruby](http://ru.wikibooks.org/wiki/Ruby)
+ * [Try Ruby! - консоль Ruby в браузере, без установки](http://tryruby.org/)
