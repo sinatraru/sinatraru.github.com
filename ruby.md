@@ -4,7 +4,7 @@ title: Небольшой обзор Ruby
 id: ruby
 ---
 
-Небольшой обзор Ruby
+Этот загадочный Ruby
 ====================
 
 Для людей незнакомых с Ruby, думаю было бы неплохо привести некоторые
@@ -36,7 +36,7 @@ TODO - закончить
 
 
  * [на русском на основном сайте Ruby](http://preview.ruby-lang.org/ru/documentation/)
- * [Учебник "Учисть программировать" (перевод на русский)](http://www.shokhirev.com/mikhail/ruby/ltp/title.html)
+ * [Учебник "Учись программировать" (перевод на русский)](http://www.shokhirev.com/mikhail/ruby/ltp/title.html)
  * [Быстрый старт Ruby за 20 минут](http://preview.ruby-lang.org/ru/documentation/quickstart/)
  * [Викибукс по Ruby](http://ru.wikibooks.org/wiki/Ruby)
  * [Try Ruby! - консоль Ruby в браузере, без установки](http://tryruby.org/)
