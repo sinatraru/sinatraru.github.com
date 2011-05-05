@@ -47,6 +47,11 @@ id: articles
 Подключение своей библиотеки обработки rss потоков, и отображение результата с помощью Синатры.
 
 
+### [A contact form for Jekyll, powered by Sinatra ](http://vitobotta.com/sinatra-contact-form-jekyll/)
+
+Добавление формы обратной связи для Jekyll сгенерированного сайта.
+
+
 ### [20+ Rubyists are using Sinatra – Do you?](http://rubylearning.com/blog/2009/06/29/20-rubyists-using-sinatra-do-you/)
 
 Отзывы пользователей Синатры. Английский.

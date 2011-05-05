@@ -11,14 +11,37 @@ id: docs
 
 Лучшая документация по самым интересным особенностям Sinatra.
 
+
 ### [Опции и конфигурация](configuration.html)
 
 Детальная информация по всем конфигурационным параметрам Sinatra и
 использовании методов `set`, `enable` и `disable`.
 
+
 ### [Frequently Asked Questions](faq.html)
 
 Ответы на часто задаваемые вопросы.
+
+
+### [Статьи](articles.html)
+
+Подборка статей/публикаций по Синатре
+
+
+### [Приложения](applications.html)
+
+Приложения, которые работают на фреймворке Sinatra.
+
+
+### Исходный код Sinatra
+
+Код фреймворка Sinatra можно [посмотреть на GitHub](http://github.com/sinatra/sinatra/)
+
+
+### [Документация по API](http://rubydoc.info/gems/sinatra)
+
+Любезно предоставлена `rubydoc.info`.
+
 
 ### Информация о релизах
 
@@ -84,6 +107,3 @@ id: docs
  * [0.0.1](https://github.com/sinatra/sinatra/tree/0.0.1)
    September 09, 2007
 
-### [Документация по API](http://rubydoc.info/gems/sinatra)
-
-Любезно предоставлена `rubydoc.info`.
