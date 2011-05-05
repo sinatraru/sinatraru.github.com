@@ -14,59 +14,71 @@ id: try
 ### Установка Ruby
 
 Подразумеваем установку под Windows. 
-На этой странице (http://www.ruby-lang.org/en/downloads/)[http://www.ruby-lang.org/en/downloads/] смотрим раздел
+На этой странице [http://www.ruby-lang.org/en/downloads/](http://www.ruby-lang.org/en/downloads/) смотрим раздел
 Ruby On Windows - выбираем RubyInstaller - чтобы автоматически установилось всё неоходимое.
 Выбираем версию - 1.8.7, на данный момент самая распространённая. В данный момент
-рекомендуется этот релиз (Ruby 1.8.7-p334 RubyInstaller)[http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe]
+рекомендуется этот релиз [Ruby 1.8.7-p334 RubyInstaller](http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe)
 
 Скачиваем, устанавливаем.
 
-Проверяем версию: "ruby -v"
+Проверяем версию:
+
+    ruby -v
 
 ### Установка RubyGems
 
-Заходим на (страницу скачивания)[http://rubyforge.org/frs/?group_id=126] находим последний zip архив.
-Скачиваем, распаковываем. В папке запускаем "ruby setup.rb"
+Заходим на [страницу скачивания](http://rubyforge.org/frs/?group_id=126) находим последний zip архив.
+Скачиваем, распаковываем. В папке запускаем:
+
+    ruby setup.rb
+
 
 Приложения в Ruby распространяются как gem пакеты, который представляет собой архив, с приложением, и мета-информацие по версии и зависимостям.
 
-Проверяем версию "gem -v"
+Проверяем версию:
+
+    gem -v
 
 
 ### Установка Sinatra
 
 Теперь нам достаточно лишь указать название gem пакета, и RubyGem найдёт данный пакет
-в библиотеке Gem Пакетов - (rubygems.org)[http://rubygems.org/]
+в библиотеке Gem Пакетов - [rubygems.org](http://rubygems.org/)
 
-Набираем: "gem install sinatra"
+Набираем:
+
+    gem install sinatra
 
 Должен установиться пакет Sinatra и требуемые для его работы пакеты (зависимости). Так же 
 автоматически генерируется API документация по исходным кодам.
 
 ### Запуск
 
-Делаем простой файл Sinatra приложения, hi.rb:
+Делаем простой файл Sinatra приложения, `hi.rb`:
 
-  require 'rubygems'
-  require 'sinatra'
+    require 'rubygems'
+    require 'sinatra'
 
-  get '/' do
-    'Hi!'
-  end
+    get '/' do
+      'Hi!'
+    end
 
 
 Запускаем файл:
 
-  ruby hi.rb
+    ruby hi.rb
 
 В консоль должно вывестить, что-то вроде:
 
-  == Sinatra/1.2.3 has taken the stage on 4567 for development with backup from
+    == Sinatra/1.2.3 has taken the stage on 4567 for development with backup from
 
-Что говорит, что приложение стартовано на порту 4567
+Что говорит, что приложение стартовано на порту `4567`
 
-Открываем браузер, указываем адрес http://localhost:4567 - видим приложение.
+Открываем браузер, указываем адрес `http://localhost:4567` - видим текст.
 
-Для смены порта, указываем ключик -p, например 
+Для смены порта, указываем ключик `-p`, например 
 
-  ruby hi.rb -p 3000
+    ruby hi.rb -p 3000
+
+
+[Подробнее о Sinatra](/intro.html)
