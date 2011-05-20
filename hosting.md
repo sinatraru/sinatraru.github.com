@@ -21,10 +21,10 @@ id: hosting
 
 Для работы необходимо:
 
-  * зарегистрировать аккаунт на [Heroku.com](http://heroku.com)
-  * установить Git
-  * сгенерировать ключ
-  * установить gem heroku
+ * зарегистрировать аккаунт на [Heroku.com](http://heroku.com)
+ * установить Git
+ * сгенерировать ключ
+ * установить gem heroku
 
 Это - необходимо задокументировать ( [Getting Started with Heroku on Windows](http://devcenter.heroku.com/articles/windows) ) - TODO.
 
