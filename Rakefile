@@ -1,4 +1,7 @@
+# encoding: utf-8
 require 'rake/clean'
+gem 'rdoc', '=3.8'
+require 'rdoc'
 require 'rdoc/markup/to_html'
 require 'uri'
 
