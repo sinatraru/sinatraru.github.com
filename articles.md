@@ -10,6 +10,18 @@ id: articles
 Здесь будут собираться русскоязычные и не очень статьи по Sinatre. 
 Переводные, либо оригинальные.
 
+
+### [Поём вместе с Sinatra. Часть первая. Первое знакомство](http://habrahabr.ru/blogs/ruby/138571/ )
+
+Статья про самые основы Sinatra. Установка. Маршруты (роуты). Интересно обсуждение в комментариях.
+
+
+### [Использование связки Sinatra, mongodb и carrierwave, пишем простую фотогалерею](http://habrahabr.ru/blogs/ruby/139423/ )
+
+Статья про создание простой фото-галереи, на базе Sinatra, mongodb и carrierwave.
+Исходный код [здесь](https://bitbucket.org/vened/imagegallery/src)
+
+
 ### [Ruby для начинающих CMS](http://vredniy.ru/2012/02/ruby-sinatra-cms-heroku/ )
 
 Хорошая статья про создание не сложной системы управления сайтом (CMS), на базе Sinatra и DataMapper.
