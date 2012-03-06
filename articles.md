@@ -13,7 +13,7 @@ id: articles
 ### [Ruby для начинающих CMS](http://vredniy.ru/2012/02/ruby-sinatra-cms-heroku/ )
 
 Хорошая статья про создание не сложной системы управления сайтом (CMS), на базе Sinatra и DataMapper.
-Есть [репозиторий на github](https://github.com/vredniy/simple-sinatra-cms). Фронт можно увидеть (здесь)[http://vredniy-sinatra.heroku.com/].
+Есть [репозиторий на github](https://github.com/vredniy/simple-sinatra-cms). Фронт можно увидеть [здесь](http://vredniy-sinatra.heroku.com/).
 Но самое интересное - это бэкэнд.
 
 ### [Hello world с помощью Ruby, Sinatra и Haml](http://justlest.info/2010/01/hello-world-ruby-sinatra-haml )
