@@ -23,14 +23,16 @@
 			<li><a href='#RDoc%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>RDoc шаблоны</a></li>
 			<li><a href='#Radius%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Radius шаблоны</a></li>
 			<li><a href='#Markaby%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Markaby шаблоны</a></li>
+			<li><a href='#RABL%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>RABL шаблоны</a></li>
 			<li><a href='#Slim%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Slim шаблоны</a></li>
 			<li><a href='#Creole%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Creole шаблоны</a></li>
 			<li><a href='#CoffeeScript%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>CoffeeScript шаблоны</a></li>
 			<li><a href='#Yajl%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Yajl шаблоны</a></li>
+			<li><a href='#WLang%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>WLang шаблоны</a></li>
 			<li><a href='#%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Встроенные шаблоны</a></li>
 			<li><a href='#%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BF%20%D0%BA%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%20%D0%B2%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0%D1%85'>Доступ к переменным в шаблонах</a></li>
 			<li><a href='#%D0%92%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Вложенные шаблоны</a></li>
-			<li><a href='#%D0%98%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Именные шаблоны</a></li>
+			<li><a href='#%D0%98%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B'>Именованные шаблоны</a></li>
 			<li><a href='#%D0%9F%D1%80%D0%B8%D0%B2%D1%8F%D0%B7%D0%BA%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D1%85%20%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B9'>Привязка файловых расширений</a></li>
 			<li><a href='#%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B4%D0%B2%D0%B8%D0%B6%D0%BA%D0%B0%20%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3%D0%B0'>Добавление собственного движка рендеринга</a></li>
 		</ol>
@@ -167,7 +169,7 @@ end</code></pre>
 запросом маршрут и будет вызван.</p>
 
 <p>Шаблоны маршрутов могут включать в себя
-именные параметры доступные в xэше
+именованные параметры доступные в xэше
 <tt>params</tt>:</p>
 
 <pre><code>get '/hello/:name' do
@@ -176,7 +178,7 @@ end</code></pre>
   &quot;Hello #{params[:name]}!&quot;
 end</code></pre>
 
-<p>Также можно использовать именные
+<p>Также можно использовать именованные
 параметры в качестве переменных блока:</p>
 
 <pre><code>get '/hello/:name' do |n|
@@ -233,7 +235,7 @@ end</code></pre>
 <h3>Условия</h3>
 
 <p>Маршруты могут включать различные
-условия совпадений, например, клиентской
+условия совпадений, например, клиентское
 приложение (user agent):</p>
 
 <pre><code>get '/foo', :agent =&gt; /Songbird (\d\.\d)[\d\/]*?/ do
@@ -532,7 +534,7 @@ get('/') { markdown :index }</code></pre>
 <h3>Haml шаблоны</h3>
 <table class="rdoc-list"><tr><td class="rdoc-term"><p>Зависимости</p></td>
 <td>
-<p><a href="http://haml-lang.com/">haml</a></p>
+<p><a href="http://haml.info/">haml</a></p>
 </td></tr><tr><td class="rdoc-term"><p>Расширения файлов</p></td>
 <td>
 <p><tt>.haml</tt></p>
@@ -788,6 +790,19 @@ href="http://maruku.rubyforge.org/">maruku</a></p>
 <p>Блок также используется и для встроенных
 шаблонов (см. пример).</p>
 
+<a name="RABL%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B"></a>
+<h3>RABL шаблоны</h3>
+<table class="rdoc-list"><tr><td class="rdoc-term"><p>Зависимости</p></td>
+<td>
+<p><a href="https://github.com/nesquena/rabl">rabl</a></p>
+</td></tr><tr><td class="rdoc-term"><p>Расширения файлов</p></td>
+<td>
+<p><tt>.rabl</tt></p>
+</td></tr><tr><td class="rdoc-term"><p>Пример</p></td>
+<td>
+<p><tt>rabl :index</tt></p>
+</td></tr></table>
+
 <a name="Slim%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B"></a>
 <h3>Slim шаблоны</h3>
 <table class="rdoc-list"><tr><td class="rdoc-term"><p>Зависимости</p></td>
@@ -879,6 +894,25 @@ json[:baz] = key</code></pre>
 
 <pre><code>var resource = {&quot;foo&quot;:&quot;bar&quot;,&quot;baz&quot;:&quot;qux&quot;}; present(resource);</code></pre>
 
+<a name="WLang%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B"></a>
+<h3>WLang шаблоны</h3>
+<table class="rdoc-list"><tr><td class="rdoc-term"><p>Зависимости</p></td>
+<td>
+<p><a href="https://github.com/blambeau/wlang/">wlang</a></p>
+</td></tr><tr><td class="rdoc-term"><p>Расширения файлов</p></td>
+<td>
+<p><tt>.wlang</tt></p>
+</td></tr><tr><td class="rdoc-term"><p>Пример</p></td>
+<td>
+<p><tt>wlang :index, :locals =&gt; { :key =&gt; 'value' }</tt></p>
+</td></tr></table>
+
+<p>Так как в WLang шаблонах невозможно
+вызывать методы из Ruby напрямую (за
+исключением <tt>yield</tt>), то вы почти всегда
+будете передавать в шаблон локальные
+переменные.</p>
+
 <a name="%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B"></a>
 <h3>Встроенные шаблоны</h3>
 
@@ -942,8 +976,8 @@ __END__
 :inline_templates</tt> напрямую, если используете
 вложенные шаблоны в других файлах.</p>
 
-<a name="%D0%98%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B"></a>
-<h3>Именные шаблоны</h3>
+<a name="%D0%98%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B"></a>
+<h3>Именованные шаблоны</h3>
 
 <p>Шаблоны также могут быть определены при
 помощи <tt>template</tt> метода:</p>
@@ -2003,7 +2037,11 @@ to('/foo')</tt>. Отключено по умолчанию.</p>
 <dd>
 <p>показывать исключения/стек вызовов (stack
 trace) в браузере. По умолчанию включено
-только в окружении <tt>development</tt>.</p>
+только в окружении <tt>development</tt>. Может
+быть установлено в <tt>:after_handler</tt> для
+запуска специфичной для приложения
+обработки ошибок, прежде чем показывать
+трассировку стека в браузере.</p>
 </dd><dt>static</dt>
 <dd>
 <p>должна ли Sinatra осуществлять раздачу
