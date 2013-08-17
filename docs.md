@@ -11,7 +11,7 @@ id: docs
 
 Небольшой туториал по установке Sinatra.
 
-### [README](/intro.html)
+### [README](https://github.com/sinatra/sinatra/blob/master/README.ru.md)
 
 Лучшая документация по самым интересным особенностям Sinatra.
 

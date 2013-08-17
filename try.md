@@ -13,7 +13,7 @@ id: try
 
 ### Установка Ruby
 
-Подразумеваем установку под Windows. 
+Подразумеваем установку под Windows.
 На этой странице [http://www.ruby-lang.org/en/downloads/](http://www.ruby-lang.org/en/downloads/) смотрим раздел
 Ruby On Windows - выбираем RubyInstaller - чтобы автоматически установилось всё неоходимое.
 Выбираем версию - 1.8.7, на данный момент самая распространённая. Например этот релиз [Ruby 1.8.7-p334 RubyInstaller](http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe)
@@ -45,7 +45,7 @@ RubyGems поставляется вместе с RubyInstaller, поэтому 
 
     gem install sinatra
 
-Должен установиться пакет Sinatra (свежей версии) и требуемые для его работы пакеты (зависимости). Так же 
+Должен установиться пакет Sinatra (свежей версии) и требуемые для его работы пакеты (зависимости). Так же
 автоматически генерируется API документация по исходным кодам.
 
 ### Запуск
@@ -72,9 +72,9 @@ RubyGems поставляется вместе с RubyInstaller, поэтому 
 
 Открываем браузер, указываем адрес `http://localhost:4567` - видим текст.
 
-Для смены порта, указываем ключик `-p`, например 
+Для смены порта, указываем ключик `-p`, например
 
     ruby hi.rb -p 3000
 
 
-[Подробнее о Sinatra](/intro.html)
+[Подробнее о Sinatra](https://github.com/sinatra/sinatra/blob/master/README.ru.md)
