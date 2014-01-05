@@ -45,6 +45,34 @@ id: docs
 ### Информация о релизах
 
 
+ * [1.4.3](https://github.com/sinatra/sinatra/blob/1.4.3/CHANGES)
+   June 7, 2013
+ * [1.4.2](https://github.com/sinatra/sinatra/blob/1.4.2/CHANGES)
+   March 21, 2013
+ * [1.4.1](https://github.com/sinatra/sinatra/blob/1.4.1/CHANGES)
+   March 15, 2013
+ * [1.4.0](https://github.com/sinatra/sinatra/blob/1.4.0/CHANGES)
+   March 15, 2013
+ * [1.3.6](https://github.com/sinatra/sinatra/blob/1.3.6/CHANGES)
+   March 15, 2013
+ * [1.3.5](https://github.com/sinatra/sinatra/blob/1.3.5/CHANGES)
+   February 25, 2013
+ * [1.3.4](https://github.com/sinatra/sinatra/blob/1.3.4/CHANGES)
+   January 26, 2013
+ * [1.3.3](https://github.com/sinatra/sinatra/blob/1.3.3/CHANGES)
+   August 19, 2012
+ * [1.3.2](https://github.com/sinatra/sinatra/blob/1.3.2/CHANGES)
+   December 30, 2011
+ * [1.3.1](https://github.com/sinatra/sinatra/blob/47c11e5f624f0018e961dc3e0628a8d732b683a5/CHANGES)
+   October 4, 2011
+ * [1.3.0](https://github.com/sinatra/sinatra/blob/1.3.0/CHANGES)
+   September 30, 2011
+ * [1.2.9](https://github.com/sinatra/sinatra/blob/1.2.9/CHANGES)
+   March 15, 2013
+ * [1.2.8](https://github.com/sinatra/sinatra/blob/1.2.8/CHANGES)
+   December 30, 2011
+ * [1.2.7](https://github.com/sinatra/sinatra/blob/1.2.7/CHANGES)
+   September 30, 2011
  * [1.2.6](http://github.com/sinatra/sinatra/blob/1.2.6/CHANGES)
    May 1, 2011
  * [1.2.5](http://github.com/sinatra/sinatra/blob/1.2.5/CHANGES)
